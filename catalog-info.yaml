@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: auto-doc
+  description: ":octocat: Github action that turns your reusable workflows and custom actions into easy to read markdown tables."
+  annotations:
+    github.com/project-slug: GumGum-Inc/auto-doc
+    backstage.io/source-location: "url:https://github.com/GumGum-Inc/auto-doc"
+  tags: []
+spec:
+  type: cicd
+  lifecycle: deprecated
+  owner: "group:devops"
